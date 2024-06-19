@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@300;500;600&display=swap');
+
+*{margin: 0 auto; padding: 0px; box-sizing: border-box; }
+ul, ol, li{list-style:none; margin: 0; padding:0; font-family: 'M PLUS 1', sans-serif;}
+a{text-decoration:none;}
+#wrap{width: 100%; position: absolute;}
+header{width: 100%; border-bottom: 1px solid #d7d7d7; 
+       position: fixed; background-color: #fff;
+       z-index: 1;}
+.top{width: 1200px; margin: 20px auto; display: flex; 
+    justify-content: space-between;
+align-items: center;}
+.logo{ width: 200px;}
+.logo img{width: 100%;}
+.top nav{width: 800px;}
+.menu{display: flex; justify-content: space-between;}
+.menu li a{color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.slide{width: 100%;  position: relative; margin-top: 95px;  
+    overflow: hidden;}
+.slideimg{width: 300%; height: 100%; display: flex;}
+.slideimg li{width: 100%;}
+.slideimg li img{display: block; width: 100%; 
+   }
+
+
+.main-box-wrap{
+    width: 90%; height: 30vh;
+    margin: 20px auto; display: flex; justify-content: space-between;
+}
+.main-box{
+    width: 33%; 
+    background-color: aquamarine;
+}
+.main-box:first-child{
+    background-color: #7595BE;
+}
+.main-box:nth-child(2){
+    background-color: #98AE84;
+}
+.main-box:nth-child(3){
+    background-color: #887A68;
+}
