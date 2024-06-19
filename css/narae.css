@@ -29,7 +29,7 @@ align-items: center;}
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 .slide{width: 100%;  position: relative; margin-top: 95px;  
     overflow: hidden;}
-.slideimg{width: 300%; height: 100%; display: flex;}
+.slideimg{width: 400%; height: 100%; display: flex;}
 .slideimg li{width: 100%;}
 .slideimg li img{display: block; width: 100%; 
    }
