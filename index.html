@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/narae.css">
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        <div id="wrap">
+            <header>
+                <div class="top">
+                    <div class="logo">
+                        <img src="img/나래의료재단로고-01.png">
+                    </div>
+                    <nav>
+                        <ul class="menu">
+                            <li><a href="">병원소개</a></li>
+                            <li><a href="">검진센터</a></li>
+                            <li><a href="">소화기내과</a></li>
+                            <li><a href="">가정의학과</a></li>
+                            <li><a href="">영상의학과</a></li>
+                            <li><a href="">산부인과</a></li>
+                            <li><a href="">치과</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                
+            </header>
+            <div class="slide">
+                <ul class="slideimg">
+                    <li><img src="img/medical_staff.jpg" alt=""></li>
+                    <li><img src="img/medical_device.jpg"></li>
+                    <li><img src="img/woo_doctor.jpg"></li>
+                    <li><img src="img/나래의료재단최우수기관선정.jpg"></li>
+                </ul>
+            </div>
+            <div class="main-box-wrap">
+                <div class="main-box">
+                    <p>나래의료재단</p>
+                    <p>진료예약</p>
+                    <button>예약하러가기</button>
+                </div>
+                <div class="main-box">
+                    <p>나래의료재단</p>
+                    <p>블로그</p>
+                    <button>블로그가기</button>
+                </div>
+                <div class="main-box">
+                    <p>카카오톡</p>
+                    <p>플러스친구 ID:나래의료재단</p>
+                    <button>카카오톡 상담하기</button>
+                </div>
+            </div>
+            <div class="main_content_img">
+                <img src="img/협력병원배너.jpg" alt="">
+            </div>
+        </div>
+        <script>
+            function prev(){
+
+                $('.slideimg li:last').prependTo('.slideimg');
+
+                $('.slideimg').css('margin-left','100%'); 
+
+                $('.slideimg').stop().animate({marginLeft:0},1000);
+
+            }
+
+            function next(){
+
+                $('.slideimg').stop().animate({marginLeft:'-100%'},1000, function(){
+
+                $('.slideimg li:first').appendTo('.slideimg');
+
+                $('.slideimg').css({marginLeft:0});
+
+            });
+
+            }
+
+            setInterval(next, 6000); 
+
+        </script>
+    </body>
+</html>
