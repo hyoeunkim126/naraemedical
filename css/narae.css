@@ -30,7 +30,7 @@ align-items: center;}
 .slider__wrap{width: 100%;  }
 .slider__img{position: relative; margin-top: 95px;  
     overflow: hidden;}
-.slider__inner{width: 500%; height: 100%; display: flex;}
+.slider__inner{width: 600%; height: 100%; display: flex;}
 .slider__inner li{width: 100%;}
 .slider__inner li img{display: block; width: 100%; 
    }
