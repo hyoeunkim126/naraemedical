@@ -1,4 +1,12 @@
 @charset "UTF-8";
+* { margin: 0; padding: 0;  
+    box-sizing: border-box;}
+ body { font-family: Inter, sans-serif;
+        color: #0e092e;
+        font-size: 1em;
+        line-height: 140%;}
+ul, ol, li { list-style: none; margin: 0; padding: 0;}
+a { text-decoration: none; color:#333;}
 
 section{
     width: 1280px;

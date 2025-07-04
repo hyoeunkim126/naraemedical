@@ -2,5 +2,6 @@
 
 @media (max-width:850px)  {
     #wrap { width: 100%;}
+    section{width: 100%;}
 }
     
