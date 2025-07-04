@@ -1,7 +1,7 @@
 @charset "UTF-8";
 * { margin: 0; padding: 0;  
     box-sizing: border-box;}
- body { font-family: Inter, sans-serif;
+ body { font-family:Arial, sans-serif;
         color: #0e092e;
         font-size: 1em;
         line-height: 140%;}
@@ -52,31 +52,42 @@ section{
 }
 .tg colgroup{
     border-top: 2px solid #747474;
-    text-align: center;
+    /* text-align: center; */
 }
 .tg td{
     border-right:1px solid #c0c0c0;
     border-bottom: 1px solid #c0c0c0;
-    font-family:Arial, sans-serif;
     font-size:14px;
+    padding: 10rem 12rem;
     overflow:hidden;
     padding:10px 5px;
     word-break:normal;}
 .tg th{
-    border-right:1px solid #c0c0c0;
+    border-right: none;
     border-bottom: 1px solid #c0c0c0;
     font-family:Arial, sans-serif;
-    font-size:14px;
-    font-weight:normal;
+    font-size:1.5rem;
+    font-weight:500;
     overflow:hidden;
     padding:10px 5px;
     word-break:normal;}
-.tg_box .tg th{
-    border-right: none;
+
+.tg-fzdr{
+    border-right:1px solid #c0c0c0;
+    background-color: rgb(229, 239, 248);
 }
+.tg .th_2{
+    background-color: rgb(229, 239, 248);
+    text-align: center;
+    font-weight: 600;
+}
+
 .tg_box .tg .tg-ve35{
     border-right: none;
 }
-.tg-fzdr{
-    border-right:1px solid #c0c0c0;
+
+
+.tg tbody .price{
+    text-align: center;
+    font-weight: 500;
 }
