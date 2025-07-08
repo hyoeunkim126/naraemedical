@@ -28,13 +28,13 @@ header{width: 100%; border-bottom: 1px solid #d7d7d7;
 .menu{display: flex; justify-content: space-between;}
 .menu li a{color: #000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-.slider__wrap{width: 1280rem; margin: 0 auto;  }
+.slider__wrap{ height: 850px; margin: 0 auto;}
 .slider__img{position: relative; margin-top: 95px;  
-    overflow: hidden; }
+    overflow: hidden;}
 .slider__inner{width: 500%; height: 100%; display: flex;}
 .slider__inner li{width: 100%;}
 .slider__inner li img{display: block; width: 100%; 
-   }
+    background-size: contain;}
 .slider__btn a {
     position: absolute;
     top: 50%;
